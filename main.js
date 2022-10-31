@@ -1,5 +1,5 @@
-function myFunction() {
-    var buttons = document.getElementById("myButton").value;
+function nButtonsFunction() {
+    var buttons = document.getElementById("numOfButtons").value;
     let winningButton;
     const onClick = function() {
         winningButton = winningButton ? winningButton : Math.floor(Math.random() * buttons);
