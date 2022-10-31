@@ -7,7 +7,7 @@ function myFunction() {
                 alert ("Congratulation! You have guessed the button!");
                 document.location.reload();
             } else {
-            alert ("This is not the right button, keep trying!");
+                alert ("This is not the right button, keep trying!");
             }
     }
     for (let i = 0; i < buttons; ++i) {
